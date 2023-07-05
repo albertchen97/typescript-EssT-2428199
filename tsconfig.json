@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        // Output JavaScript files to "build" folder
+        "outDir": "build",  
+        // Compile TypeScript into JavaScript version ES6
+        // // "target": "ES6"      
+        // Compile TypeScript into the latest version of JavaScript for JavaScript transcompiler such as Babel
+        "target": "ESNext",
+        // Prevent generating JavaScript files (if you want only type-checking)
+        "noEmit": true
+    },
+    "include": ["src/**/*"]
+}
